@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather-API</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <div class="container-fluid">
+        <div class="container">
+            <div class="nav-bar">
+                <input id="input" type="text" placeholder="Search">
+                <div class="btn">
+                    <button onclick="readData()">
+                        <i class="fa-solid fa-magnifying-glass" style="color: #eceff3;"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="content">
+                <div class="left">
+                    <h1 id="weather">Weather in Nagpur</h1>
+                    <h1 id="temp">36.01°C</h1>
+
+                    <p id="humidity">Humidity : 70%</p>
+                    <p id="wind-speed">Wind speed : 3.6km/h</p>
+                </div>
+                <div class="right">
+                    <p id="day">Fri,August 2023</p>
+
+                    <p id="time">3:02:05 PM</p>
+
+                </div>
+                
+
+            </div>
+        </div>
+
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
